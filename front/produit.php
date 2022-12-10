@@ -47,10 +47,10 @@ $produit = $sqlState->fetch(PDO::FETCH_ASSOC);
                         $total = $prix - (($prix * $discount) / 100);
                         ?>
                         <h5 class="mx-1">
-                            <span class="badge text-bg-danger"><strike> <?php echo $prix ?> MAD </strike></span>
+                            <span class="badge text-bg-danger"><strike> <?php echo $prix ?> <i class="fa fa-solid fa-dollar"></i> </strike></span>
                         </h5>
                         <h5 class="mx-1">
-                            <span class="badge text-bg-success"><?php echo $total ?> MAD</span>
+                            <span class="badge text-bg-success"><?php echo $total ?> <i class="fa fa-solid fa-dollar"></i></span>
                         </h5>
 
                         <?php
@@ -58,7 +58,7 @@ $produit = $sqlState->fetch(PDO::FETCH_ASSOC);
                         $total = $prix;
                         ?>
                         <h5>
-                            <span class="badge text-bg-success"><?php echo $total ?> MAD</span>
+                            <span class="badge text-bg-success"><?php echo $total ?> <i class="fa fa-solid fa-dollar"></i></span>
                         </h5>
 
                         <?php

@@ -47,7 +47,6 @@ include 'include/nav.php' ?>
             <?php
         }
 
-        echo "Libelle : $libelle , Prix : $prix , Discount : $discount , Catégorie : $categorie , Date : $date";
     }
     ?>
     <form method="post" enctype="multipart/form-data">

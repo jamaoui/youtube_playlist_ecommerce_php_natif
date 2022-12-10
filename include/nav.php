@@ -4,6 +4,7 @@ $connecte = false;
 if (isset($_SESSION['utilisateur'])) {
     $connecte = true;
 }
+
 ?>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">

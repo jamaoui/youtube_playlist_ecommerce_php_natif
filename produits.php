@@ -34,7 +34,7 @@
             <tr>
                 <td><?= $produit->id ?></td>
                 <td><?= $produit->libelle ?></td>
-                <td><?= $prix ?> MAD</td>
+                <td><?= $prix ?> <i class="fa fa-solid fa-dollar"></i></td>
                 <td><?= $discount ?> %</td>
                 <td><?= $produit->categorie_libelle ?></td>
                 <td><?= $produit->date_creation ?></td>
